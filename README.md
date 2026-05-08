@@ -1,20 +1,3 @@
----
-language:
-- la
-license: apache-2.0
-base_model: Qwen/Qwen3-4B-Base
-library_name: peft
-tags:
-- continued-pretraining
-- lora
-- qlora
-- latin
-- text-generation
-datasets:
-- HuggingFaceFW/fineweb-2
-pipeline_tag: text-generation
----
-
 # Qwen3-4B-Latin (LoRA adapter)
 
 A LoRA adapter for **`Qwen/Qwen3-4B-Base`** continued-pretrained on the Latin (`lat_Latn`) subset of **`HuggingFaceFW/fineweb-2`**. The base Qwen3 family has very little Latin in its pretraining mix; this adapter adds Latin fluency on top.
